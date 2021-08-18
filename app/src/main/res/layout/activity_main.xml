@@ -11,10 +11,10 @@
         android:layout_width="411dp"
         android:layout_height="57dp"
         android:layout_marginTop="24dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/heartbeat_with_stethoscope"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/heartbeat_with_stethoscope" />
 
     <TextView
         android:id="@+id/textView"
@@ -33,13 +33,15 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="274dp"
-        android:layout_height="28dp"
+        android:layout_width="302dp"
+        android:layout_height="24dp"
         android:layout_marginTop="40dp"
         android:fontFamily="sans-serif"
         android:text="@string/book_your_appointment_today_with_us"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/black"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,8 +49,8 @@
 
     <EditText
         android:id="@+id/login_mail"
-        android:layout_width="254dp"
-        android:layout_height="60dp"
+        android:layout_width="256dp"
+        android:layout_height="72dp"
         android:layout_marginTop="68dp"
         android:autofillHints=""
         android:background="@drawable/custom_input"
@@ -59,15 +61,17 @@
         android:inputType="textEmailAddress"
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
         android:id="@+id/login_password"
-        android:layout_width="261dp"
-        android:layout_height="61dp"
-        android:layout_marginTop="56dp"
+        android:layout_width="259dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="64dp"
         android:background="@drawable/custom_input"
         android:drawableStart="@drawable/custom_lock_icon"
         android:drawablePadding="9dp"
@@ -77,9 +81,33 @@
         android:inputType="textPassword"
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.56"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_mail" />
+
+    <Button
+        android:id="@+id/logIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/log_in"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_password" />
+
+    <TextView
+        android:id="@+id/registerView"
+        android:layout_width="98dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/sign_up"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logIn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

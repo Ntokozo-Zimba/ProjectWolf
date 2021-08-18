@@ -5,4 +5,16 @@
     <string name="book_your_appointment_today_with_us">book your appointment today, with us!</string>
     <string name="password">Password</string>
     <string name="email_address">Email Address</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up!</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="name">Name</string>
+    <string name="register">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="surname">Surname</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_surname">Enter Surname</string>
+    <string name="enter_your_name">Enter Your Name</string>
 </resources>
