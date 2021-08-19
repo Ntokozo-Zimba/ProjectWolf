@@ -193,13 +193,14 @@ tools:context=".activityPage">
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/widgets"
+            android:src="@drawable/info"
             android:contentDescription="@string/todo" />
 
         <TextView
+            android:id="@+id/contactAdmin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/widgets"
+            android:text="CONTACT ADMIN"
             android:textAlignment="center"
             android:textStyle="bold" />
     </LinearLayout>
@@ -227,14 +228,14 @@ tools:context=".activityPage">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/info"
+                    android:src="@drawable/ic_baseline_power"
                     android:contentDescription="@string/todo" />
 
                 <TextView
-                    android:id="@+id/adminContact"
+                    android:id="@+id/signOut"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/contact_admin"
+                    android:text="SIGN OUT"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
