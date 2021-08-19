@@ -13,7 +13,7 @@ tools:context=".activityPage">
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_margin="12dp"
-        android:text="FIND DOCTOR"
+        android:text="@string/find_doctor"
         android:textColor="#fff"
         android:textSize="30sp"
         android:textStyle="bold" />
@@ -49,13 +49,14 @@ tools:context=".activityPage">
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/home" />
+            android:src="@drawable/home"
+            android:contentDescription="@string/todo" />
 
         <TextView
             android:id="@+id/profileEdit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="PROFILE"
+            android:text="@string/profile"
             android:textAlignment="center"
             android:textStyle="bold" />
     </LinearLayout>
@@ -85,13 +86,14 @@ tools:context=".activityPage">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/language" />
+                    android:src="@drawable/language"
+                    android:contentDescription="@string/todo" />
 
                 <TextView
                     android:id="@+id/findDRbrowser"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="DR Near Me"
+                    android:text="@string/dr_near_me"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -120,13 +122,14 @@ tools:context=".activityPage">
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/chat" />
+                android:src="@drawable/chat"
+                android:contentDescription="@string/todo" />
 
             <TextView
                 android:id="@+id/messages"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="CHAT"
+                android:text="@string/chat"
                 android:textAlignment="center"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -155,13 +158,14 @@ tools:context=".activityPage">
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/calendar" />
+            android:src="@drawable/calendar"
+            android:contentDescription="@string/todo" />
 
         <TextView
             android:id="@+id/appointment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CALENDAR"
+            android:text="@string/calendar"
             android:textAlignment="center"
             android:textStyle="bold" />
     </LinearLayout>
@@ -189,12 +193,13 @@ tools:context=".activityPage">
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/widgets" />
+            android:src="@drawable/widgets"
+            android:contentDescription="@string/todo" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="WIDGETS"
+            android:text="@string/widgets"
             android:textAlignment="center"
             android:textStyle="bold" />
     </LinearLayout>
@@ -222,13 +227,14 @@ tools:context=".activityPage">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/info" />
+                    android:src="@drawable/info"
+                    android:contentDescription="@string/todo" />
 
                 <TextView
                     android:id="@+id/adminContact"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="CONTACT ADMIN"
+                    android:text="@string/contact_admin"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>

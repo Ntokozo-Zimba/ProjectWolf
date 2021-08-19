@@ -17,4 +17,17 @@
     <string name="enter_password">Enter Password</string>
     <string name="enter_surname">Enter Surname</string>
     <string name="enter_your_name">Enter Your Name</string>
+    <string name="chat">CHAT</string>
+    <string name="find_doctor">FIND DOCTOR</string>
+    <string name="contact_admin">CONTACT ADMIN</string>
+    <string name="dr_near_me">DR Near Me</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="calendar">CALENDAR</string>
+    <string name="widgets">WIDGETS</string>
+    <string name="profile">PROFILE</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
 </resources>
