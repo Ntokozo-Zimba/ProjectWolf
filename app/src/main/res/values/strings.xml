@@ -3,9 +3,9 @@
     <string name="todo">TODO</string>
     <string name="find_dr">FIND DR.</string>
     <string name="book_your_appointment_today_with_us">book your appointment today, with us!</string>
-    <string name="password">Password</string>
+    <string name="password1">Password</string>
     <string name="email_address">Email Address</string>
-    <string name="log_in">Log In</string>
+    <string name="log_in1">Log In</string>
     <string name="sign_up">Sign Up!</string>
     <string name="password">Password</string>
     <string name="log_in">Log In</string>
@@ -21,13 +21,13 @@
     <string name="find_doctor">FIND DOCTOR</string>
     <string name="contact_admin">CONTACT ADMIN</string>
     <string name="dr_near_me">DR Near Me</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
     <string name="calendar">CALENDAR</string>
     <string name="widgets">WIDGETS</string>
     <string name="profile">PROFILE</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="todo7">TODO</string>
 </resources>
