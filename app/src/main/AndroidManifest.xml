@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectWolf">
-        <activity android:name=".registrationPage"></activity>
+        <activity android:name=".activityPage"></activity>
+        <activity android:name=".registrationPage" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
