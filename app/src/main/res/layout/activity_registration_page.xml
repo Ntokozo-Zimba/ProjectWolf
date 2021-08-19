@@ -4,29 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background2"
     tools:context=".registrationPage">
 
-    <EditText
-        android:id="@+id/userSurname"
-        android:layout_width="204dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="52dp"
-        android:drawableStart="@drawable/ic_name"
-        android:ems="10"
-        android:hint="@string/enter_surname"
-        android:importantForAutofill="no"
-        android:inputType="textPersonName"
-        android:textAlignment="center"
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/find_doctor"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/userName" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/userEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="56dp"
         android:autofillHints=""
         android:drawableStart="@drawable/custom_email_icon"
         android:ems="10"
@@ -34,15 +35,15 @@
         android:inputType="textEmailAddress"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/userSurname" />
+        app:layout_constraintTop_toBottomOf="@+id/registerPhone" />
 
     <EditText
         android:id="@+id/userPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="24dp"
         android:drawableStart="@drawable/custom_lock_icon"
         android:ems="10"
         android:hint="@string/enter_password"
@@ -50,7 +51,7 @@
         android:inputType="textPassword"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/userEmail" />
 
@@ -58,23 +59,23 @@
         android:id="@+id/userName"
         android:layout_width="215dp"
         android:layout_height="57dp"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="128dp"
         android:autofillHints=""
         android:drawableStart="@drawable/ic_name"
         android:ems="10"
-        android:hint="@string/enter_your_name"
+        android:hint="@string/enter_full_names"
         android:inputType="textPersonName"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/title_view" />
 
     <Button
         android:id="@+id/register"
-        android:layout_width="107dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="104dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
         android:text="@string/register"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
@@ -91,4 +92,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/register" />
+
+    <EditText
+        android:id="@+id/registerPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:drawableStart="@drawable/ic_call"
+        android:ems="10"
+        android:hint="@string/enter_phone"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userName"
+        android:autofillHints="" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -30,4 +30,11 @@
     <string name="profile">PROFILE</string>
     <string name="todo6">TODO</string>
     <string name="todo7">TODO</string>
+    <string name="update">Update</string>
+    <string name="update_phone">Update Phone</string>
+    <string name="update_names">Update Names</string>
+    <string name="update_email">Update Email</string>
+    <string name="update_password">Update Password</string>
+    <string name="enter_phone">Enter Phone</string>
+    <string name="enter_full_names">Enter Full Names</string>
 </resources>
