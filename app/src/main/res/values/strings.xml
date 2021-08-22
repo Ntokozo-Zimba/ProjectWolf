@@ -37,4 +37,8 @@
     <string name="update_password">Update Password</string>
     <string name="enter_phone">Enter Phone</string>
     <string name="enter_full_names">Enter Full Names</string>
+    <string name="appointment">APPOINTMENT</string>
+    <string name="save">Save</string>
+    <string name="description_optional">Description(OPTIONAL)</string>
+    <string name="appointment_name">Appointment Name</string>
 </resources>

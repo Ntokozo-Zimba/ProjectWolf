@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "914469165621",
+    "project_id": "projectwolf-63c86",
+    "storage_bucket": "projectwolf-63c86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914469165621:android:db15c5f82d10ab75beaf7c",
+        "android_client_info": {
+          "package_name": "com.example.projectwolf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914469165621-ivq3p96j2gd73p2o97js12ihm8mnkogc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEXmoZsJ3a1DD2dLBHVv57Mj3ckCBnAPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914469165621-ivq3p96j2gd73p2o97js12ihm8mnkogc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
